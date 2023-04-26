@@ -10,10 +10,10 @@
 	lw $s1, b
 	lw $s2, c
 	
+	beq $s0, 1, orTrue
 	beq $s0, 2, orTrue
 	beq $s0, 4, orTrue
 	beq $s0, 6, orTrue
-	beq $s0, 8, orTrue
 	j no
 	
 orTrue:
